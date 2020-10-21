@@ -1,0 +1,351 @@
+body{
+    /* height: 4000px; */
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+.content h1{
+    color: #bf9e7b;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    /* text-align: center; */
+    
+    }
+.scrolled{
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.navbar-custom { background-color: #4c4d4f !important; }
+.navbar { background-color: #4c4d4f !important;
+color: #fff; }
+
+.navbar-toggle .icon-bar {
+    background: #fff;
+}
+
+nav li a{
+    color: #e7e7e8 !important ;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav li a:hover{
+    background-color: #4c4d4f !important;
+    color: #000 !important;
+}
+.header{
+    /* margin: 25vh; */
+    background-color: #4c4d4f;
+    height: 600px;
+    margin-top: -21px;
+    position: relative;
+}
+.header .imges{
+    margin: 100px 150px 40px;
+    /* z-index: 1; */
+}
+.header .images i{
+    color: #fff;
+}
+/* .header .content h1{
+color: #bf9e7b;
+font-family: 'Cookie', cursive;
+font-size: 60px;
+
+} */
+.header h3{
+    color: #fff;
+    font-family: ui-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    /* text-align: center; */
+}
+.header p{
+    color: #000;
+    font-size: 14px;
+    /* text-align: center; */
+}
+@media(max-width :991px){
+    .header .content{
+        text-align: center;
+    }
+    .header .imges {
+        margin: 100px 299px 40px;}
+}
+.line{
+    margin: 8px 0;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+} 
+  /* about  us */
+
+.about_us{
+    min-height: 650px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.about_us .about{
+    text-align: center;
+
+}
+.about_us p{
+    color: #c2c2c2;
+    line-height: 1.8;
+    margin-right: -40px;
+    font-size: 14px;
+}
+
+
+.about_us .box{
+    display: block;
+}
+.about_us .contact_box{
+    width: 338px;
+    background-color: #141723;
+    padding: 30px;
+    position: absolute;
+    top: -200px;
+    left: 150px;
+
+}
+.about_us .contact_box:before{
+    content: '';
+    width: 338px;
+    height: 395px;
+    background-color: #83837b;
+    position: absolute;
+    top: 378px;
+    left: 0;
+}
+
+.about_us  .contact_box h4 ,
+.about_us .contact_box .map{
+    color: #bf9e7b;
+}
+.about_us .contact_box p ,
+.about_us .contact_box li,
+.about_us .contact_box h6{
+    color: #fff;
+    font-size: 12px;
+    /* float: left; */
+}
+.about_us .line{
+    height: 1px;
+    width: 50px;
+    background-color: #bf9e7b;  
+    margin-top: 2px;
+}
+.about_us button{
+    color: #fff;
+    margin: auto;
+    border: 1px solid #bf9e7b;
+    background: transparent;
+    padding: 10px 29px;
+    display: block;
+}
+
+/* Our-Specialities */
+.Our-Specialities{
+    background-color: #4c4d4f;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    text-align: center;
+}
+
+.Our-Specialities .row{
+    padding: 50px 150px;
+}
+.Our-Specialities .contents{
+    /* margin-left: 10px; */
+    width: 150px;
+    background-color: #fff;
+    /* text-align: center; */
+}
+.Our-Specialities img{
+    width: 100%;
+    height: 115px;
+}
+.Our-Specialities .contents p{
+    font-size: 11px;
+    padding: 20px 7px;
+    color: #bf9e7b;
+
+}
+.Our-Specialities h1{
+    color: #fff;
+}
+/* Our-Specialities */
+
+
+/* Our_Menu */
+.Our_Menu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #141723;
+    
+}
+.Our_Menu p,
+.Our_Menu span,
+.Our_Menu h6{
+    color: #fff;
+}
+
+.Our_Menu .row{
+    margin-left: 100px;
+
+}
+.Our_Menu .menu {
+    padding-top: 30px;
+
+}
+.Our_Menu .box{
+    width: 37%;
+    margin-left: 40px;
+    /* padding-left: 30px; */
+    display: inline-block;
+}
+.Our_Menu .box p{
+    display: block;
+    float: left;
+    width: 80%;
+    font-size: 11px;
+}
+.Our_Menu .box .price{
+    font-size: 30px;
+    color: #bf9e7b;
+    font-family: 'Cookie', cursive;
+}
+.Our_Menu .box .prices{
+    font-size: 23px;
+    color: #bf9e7b;
+    font-family: 'Cookie', cursive;
+
+}
+.Our_Menu .menu h2{
+    color: #bf9e7b;
+    text-align: center;
+    margin-left: -102px;
+
+    font-size: 20px;
+}
+.Our_Menu button{
+    color: #000;
+    margin: auto;
+    border: 1px solid #bf9e7b;
+    background-color: #bf9e7b;
+    padding: 10px 29px;
+    margin-top: 50px;
+    display: block;
+}
+/* Our_Menu */
+
+
+/* table */
+.tables{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #4c4d4f;
+
+}
+.tables .content p{
+    text-align: center;
+    color: #000;
+    padding-bottom: 50px;
+
+}
+.tables .content h1{
+    text-align: center;
+    color: #fff;
+}
+.tables .form-group{
+    border-radius: none;
+    box-shadow: none;
+}
+.tables label{
+    color: #fff;
+    font-size: 12px;
+}
+.tables button{
+    color: #000;
+    margin: auto;
+    border: 1px solid #bf9e7b;
+    background-color: #bf9e7b;
+    padding: 10px 29px;
+    margin-top: 50px;
+    display: block;
+}
+/* table */
+
+/* contact */
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #141723;
+    color: #fff;
+}
+.contact li{
+    font-size: 12px;
+    padding-bottom: 8px;
+
+}
+.contact  .main{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.contact button{
+    color: #fff;
+    /* margin: auto; */
+    border: 1px solid #bf9e7b;
+    background-color: transparent;
+    padding: 8px 30px;
+    margin-top: 34px;
+    display: block;
+}
+.contact i{
+    border: 1px solid #bf9e7b;
+    padding: 10px;
+    /* padding: 10px 15px; */
+
+    font-size: 19px;
+    margin: 4px;
+}
+@media(max-width :991px){
+    .contact{
+        text-align: center;
+    }
+    .contact button{
+          margin: auto;
+          margin-bottom: 20px;
+    }
+}
+
+
+@media(max-width :991px){
+  .tables .form-control{
+    margin-bottom: 30px;
+  }
+}
+@media(max-width :991px){
+    .Our-Specialities .contents {
+        margin-left: 110px;
+        width: 189px;
+        height: 166px;
+        margin-bottom: 30px;
+}
+@media(max-width :991px){
+    .about_us .contact_box:before{
+        display: none;
+    }
+    .about_us .box {
+        margin-top: 217px;}
+
+    .about_us {
+            min-height: 670px;
+            padding-top: 3px;
+
+    }   
+    .about_us p{
+        font-size: 12px;
+
+    } 
+}}
+/* contact */
